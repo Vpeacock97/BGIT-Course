@@ -1,0 +1,52 @@
+Theory Questions
+
+Question 1: What does HTML stand for, and what is its primary purpose in web development?
+
+HTML stands for HyperText Markup Language, it is fundamental to web development and has the ability to present structured information to the user.
+It can work in conjunction with Javascript and CSS for interactivity and style.
+
+Question 2: Explain the difference between HTML elements and HTML attributes. Provide examples of each.
+
+A HTML element is a component that defines specific content on a webpage.
+
+An example of this is <h1> for heading 1,this is the largest heading size displayed on a webpage.
+</h1> is the end tag, using both of these elements, will enable the largest heading to be displayed on a webpage
+
+HTML attributes provide additional elements about HTML elements. 
+HTML attributes are always located in the opening tag and modify an elements behaviour.
+An example of this is <a href="https://
+
+Question 3: What is the purpose of the "DOCTYPE" declaration in an HTML document? What happens if you omit it?
+
+Question 4:
+Describe the difference between inline elements and block-level elements in HTML. Give examples of each.
+
+Question 5:
+Explain the significance of the following HTML tags and their usage:
+<head>
+This is used for headings>
+<div>
+This is used for
+<a>
+<img>
+<ul>, <ol>, and <li>
+This is used to create an unordered list with bullet points
+This is used to created an ordered list with number
+This is used to create a list, it can be preeceede by a number, bullet point or stand on it's own
+
+Question 6:
+What are semantic HTML elements? Provide examples of semantic elements and explain why they are important for web accessibility and SEO.
+
+Question 7:
+What is the purpose of the HTML form element (<form>) and its associated form controls?
+Provide examples of common form controls.
+
+Question 8:
+How can you add comments in HTML? Why are comments useful in web development?
+
+Question 9:
+What is the HTML5 standard, and what are some of the new features introduced in HTML5?
+
+Question 10:
+Explain the concept of "responsive web design" and how HTML contributes to creating
+responsive websites.
