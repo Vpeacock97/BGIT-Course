@@ -5,48 +5,115 @@ Question 1: What does HTML stand for, and what is its primary purpose in web dev
 HTML stands for HyperText Markup Language, it is fundamental to web development and has the ability to present structured information to the user.
 It can work in conjunction with Javascript and CSS for interactivity and style.
 
+
 Question 2: Explain the difference between HTML elements and HTML attributes. Provide examples of each.
 
 A HTML element is a component that defines specific content on a webpage.
 
-An example of this is <h1> for heading 1,this is the largest heading size displayed on a webpage.
-</h1> is the end tag, using both of these elements, will enable the largest heading to be displayed on a webpage
+An example of this is <h1> which represents for heading 1,this is the largest heading size displayed on a webpage.
+</h1> is the end tag, using both of these elements, will enable the largest heading size to be displayed on a webpage.
 
-HTML attributes provide additional elements about HTML elements. 
-HTML attributes are always located in the opening tag and modify an elements behaviour.
-An example of this is <a href="https://
+HTML attributes provide additional information about a HTML element. 
+HTML attributes are located in the opening tag and modify an elements behavior.
+An example of this is can be found when add an image to a webpage.
+Below is an example of an image tag.
+
+<img src="(image.jpg)" style="width; height" alt="image"/>
+
+<img>: is a html element that represents an image
+'src': specifies the source url of an image
+'width' and 'height': controls the dimensions or display size of an image
+
 
 Question 3: What is the purpose of the "DOCTYPE" declaration in an HTML document? What happens if you omit it?
 
-Question 4:
-Describe the difference between inline elements and block-level elements in HTML. Give examples of each.
+The purpose of DOCTYPE is to define the document type and to inform the browser of the type of html being used.
+This will enable to browser to render the document in standard mode, with the correct rules, specifications.
+It will ensure consistency across different browsers.
+When it is omitted, the browser is unable to interpret the html document correctly, this could send into quirks mode. 
+In quirks mode there may be inconsistent rendering issues and unexpected layout.
 
-Question 5:
-Explain the significance of the following HTML tags and their usage:
-<head>
-This is used for headings>
-<div>
-This is used for
-<a>
-<img>
-<ul>, <ol>, and <li>
-This is used to create an unordered list with bullet points
-This is used to created an ordered list with number
-This is used to create a list, it can be preeceede by a number, bullet point or stand on it's own
 
-Question 6:
-What are semantic HTML elements? Provide examples of semantic elements and explain why they are important for web accessibility and SEO.
+Question 4: Describe the difference between inline elements and block-level elements in HTML. Give examples of each.
 
-Question 7:
-What is the purpose of the HTML form element (<form>) and its associated form controls?
+HTML Elements can be grouped into two types: inline elements and block-level.
+They differ in how they interact with surrounding content.
+Block-level elements: 
+They produce a block in the layout, usually starting on a new line and occupying the full width available.
+Typically used for larger structural elements e.g. paragraphs <p> and unordered lists <ul>.
+Inline elements: 
+They do not start out on a new line and only take up necessary width.
+An example of an inline element is strong <strong>
+Typically used for small elements such as emphasized text, e.g. <strong>
+
+
+Question 5: Explain the significance of the following HTML tags and their usage
+
+<head>: This is part of the document structure and is not directly displayed on the page.
+It contains meta information, which includes the document title, character set and more.
+
+<div>: The division element is used to structure and group content. 
+It is usually used with CSS for layout and styling.
+
+<a>: The anchor element is used to create hyperlinks, this enables users to navigate to other webpages or resources.
+
+<img>: The image element and enables an image to be displayed in a html document.
+
+<ul>: Used to create an unordered list with bullet points
+<ol>: Used to create an ordered list with numbers
+<li>: Defines individual items within a list 
+
+
+Question 6: What are semantic HTML elements? Provide examples of semantic elements and explain why they are important for web accessibility and SEO.
+Semantic HTML elements, define the meaning of the content they contain. 
+They enhance the clarity of the HTML code for browsers and developers.
+
+Examples of semantic elements:
+
+<header> represents the header section of the page
+<nav> represents a navigation menu
+<main> represents the main content of the document
+<footer> represents the footer section of the page
+
+It is essential for web accessibility and search engine optimization and can improve search rankings.
+
+Question 7: What is the purpose of the HTML form element (<form>) and its associated form controls?
 Provide examples of common form controls.
 
-Question 8:
-How can you add comments in HTML? Why are comments useful in web development?
+The form element is interactive, and it allows users to input and submit data.
+It is important in terms of user authentication and data submission.
+Form control examples:
 
-Question 9:
-What is the HTML5 standard, and what are some of the new features introduced in HTML5?
+Text Input: Enables users to add a single line of text
+Textarea: Allows users to enter multiple lines of text
+Dropdown lists: Presents a list of options for users to choose from
+Submit: Sends the form data to the server
 
-Question 10:
-Explain the concept of "responsive web design" and how HTML contributes to creating
+
+Question 8: How can you add comments in HTML? Why are comments useful in web development?
+
+You are able to add comments, by placing text in between the following tag <!--(insert text) -->
+Anything that is inserted as text between the delimiters will be registered as comments and not rendered on the webpage.
+It is a useful way to add notes as reminders or explanations, this is useful when working as a team.
+It is a way to document the functionality of a code.
+Comments can be used to include or exclude sections of code.
+
+Question 9: What is the HTML5 standard, and what are some of the new features introduced in HTML5?
+
+HTML5 is the fifth & latest version of Hypertext Markup Language. 
+It was developed by the World Wide Web and the Web Hypertext Application Technology Group to address the changing needs of modern web development.
+
+It introduced and simplified the DOCTYPE declaration at the beginning of the document, compared to previous versions.
+It also introduced, new semantic elements such as <header>, <nav>, <footer>, which help provide a clearer structure to web documents.
+An additional feature is the <audio> and <video> elements.
+This allowed for the native embedding of audio and video content, without the need for third party plugins.
+
+Question 10: Explain the concept of "responsive web design" and how HTML contributes to creating
 responsive websites.
+
+Responsive web design focuses on designing web pages that adjust and conform to varying screen size and devices.
+A primary objective is optimal viewing and an interactive experience.
+An example of this is flexible grid layouts, with the use of relative units.
+This allows content to adapt proportionally to different screen size.
+There is also mobile first design, where websites are developed and designed for smaller screen sizes.
+After this, there is a focus enhancing the design for larger screens.
