@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(242, 239, 233);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  display: flexbox;
+}
+
+.container {
+  width: 90%;
+  height: 70%;
+  margin: 0 auto;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-wrap: 20%;
+  /*  background-color: black; */
+}
+
+.box1,
+.box2,
+.box3 {
+  margin: 50px;
+  width: 700px;
+  height: 700px;
+  border-radius: 7px;
+  box-shadow: -1px 0 3px #5c5a5a;
+  text-align: center;
+}
+
+img {
+  margin-top: 40px;
+  width: 85%;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.navbar ul {
+  color: rgba(148, 197, 157, 0.126);
+  list-style: none;
+  padding: 0;
+  margin: 30px;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline-block;
+}
+
+.navbar a {
+  text-decoration: none;
+  justify-content: space-between;
+  color: rgb(148, 197, 157);
+  width: 200px;
+  display: block;
+  padding: 5px 150px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background: rgb(90, 90, 229);
+}
+
+.img {
+  display: block;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.view-recipe {
+  padding: 0.9em;
+  text-align: center;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+/* Unable to edit button, would have liked to make it a nice color and a bit larger to make it more interactive */
+
+@media only screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+/* Media Screen that will adjust to different gadgets */
