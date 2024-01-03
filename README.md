@@ -1,3 +1,7 @@
 # BGIT-Course
 
-Create a simple webpage and apply CSS styles to enhance its visual appearance, using both internal and external CSS methods.
+Assignment: Responsive Food Recipe Website
+Objective:
+Create a responsive food recipe website with a minimum of three pages using HTML and
+CSS. The website should include hyperlinks to showcase different areas of the site or links
+to external websites/resources related to food and recipes.
