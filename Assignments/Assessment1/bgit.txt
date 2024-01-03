@@ -1,0 +1,89 @@
+Theory Section (40 points):
+
+HTML Basics (10 points):
+
+● What is the purpose of the HTML <DOCTYPE> declaration?
+
+The HTML DOCTYPE declaration is the first line of code for HTML or XHTML documents.
+It instructs the web browser about the version of HTML , and it enables the webpage to be interpreted in the same format by different browsers.
+
+● Explain the difference between <div> and <span> tags.
+
+Div element is used to group content, so it can be easily styled, it is a container for HTML elements and is a block-level element. 
+The Span element is used for inline organisation & styling.
+
+● What is semantic HTML, and why is it important?
+
+Semantic HTML tags define the meaning of the content they contain.
+It enables it to be comprehensible and defines the different sections and layout of the webpage. 
+It improves the accessibility of the document, and browsers can interpret the code better and this helps the SEO.
+
+
+
+CSS Fundamentals (10 points):
+
+● Describe the difference between margin and padding.
+
+Margin: create space around elements outside of any defined borders. (Outside space of element itself)
+Padding: space around the elements content, inside of any defines borders. (Inner space surrounding the element)
+
+● What is the box model in CSS?
+
+Is a box that wraps around each HTML element. It consists of margins, borders, padding and content.
+We are able to add borders around elements and define the space between elements.
+
+● Explain the CSS specificity hierarchy.
+
+If there are two or more rules that apply to a particular element, the selector with the highest specificity value will be applied to the HTML Element.
+
+
+
+Responsive Design (10 points):
+
+● What is a media query, and how is it used in responsive design?
+
+Media queries enable us to create different layouts depending on the size of the viewport/device type.
+
+● Discuss the differences between adaptive and responsive design.
+
+Adaptive Design: The browser generates a layout that is created for the specific platform.
+Responsive Design: Is a fluid approach where a page can restructure itself based on the detected screen size.
+
+● Explain the concept of a viewport in web development.
+
+A viewport is the area of the window in which the web content can be seen.
+
+
+
+HTML5 and CSS3 Features (10 points):
+
+● List and briefly explain three new features introduced in HTML5.
+New features of html5 include:
+- Audio and video
+-Header & Footer
+- Navigation tag 
+
+● What are CSS variables, and how do they differ from traditional variables in
+programming languages?
+
+-
+
+● Discuss the advantages of using Flexbox or Grid layout in CSS.
+
+Advantages of Flexbox: easier to adapt the position and size of elements or modify the order.
+Advantages of Grid: Able to create complex and structured layouts, this is 2 dimensional and is automatically responsive, adapts to different screens and improves user experience.
+
+Coding Section (60 points):
+
+HTML (20 points):
+● Create a simple HTML form that includes text input, radio buttons, checkboxes, and a
+submit button.
+● Implement an ordered list with three list items, each containing an anchor link.
+CSS (20 points):
+● Style the form from the previous question, ensuring it has a visually appealing layout.
+● Create a CSS animation that applies a smooth transition to a specific element (e.g.,
+changing color or size).
+Responsive Design (20 points):
+● Implement a responsive navigation menu that collapses into a burger menu for
+smaller screens.
+● Create a media query to adjust the layout when the screen width is below 600 pixels.
